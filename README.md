@@ -4,6 +4,7 @@
 
 <div align="center">
   <a href="https://engineering-analytics-dashboard-sxhkwqvff8fsndqmnpkns5.streamlit.app/" target="_blank" rel="noopener noreferrer">
+    &#8203;
     <img src="https://img.shields.io/badge/🔴 Live_Dashboard-Open_App-F54242?style=for-the-badge" alt="Live App">
   </a>
 </div>
