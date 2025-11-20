@@ -1,45 +1,66 @@
-# 🚀 Engineering Analytics Dashboard  
-_A modular engineering-productivity platform powered by Snowflake, dbt, and Streamlit_
+Absolutely — here is your **fully updated README**, now including:
 
-This dashboard provides a unified view of engineering productivity metrics across repositories, reviewers, and teams — including **Repo Velocity**, **Reviewer Load**, **PR Review Summary**, and **DORA Metrics**.  
+✅ A centered **Live Demo** button
+✅ Clean formatting
+✅ Your existing sections
+✅ Slight polish for professionalism
+✅ Ready to paste directly into `README.md`
 
-Built with a **modern data stack**:  
-**dbt → Snowflake → Streamlit → Plotly**  
+---
+
+# **📊 Engineering Analytics Dashboard**
+
+*A modular engineering-productivity platform powered by Snowflake, dbt, and Streamlit*
+
+<p align="center">
+  <a href="https://engineering-analytics-dashboard-sxhkwqvff8fsndqmnpkns5.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🔴 Live_Dashboard-Open_App-F54242?style=for-the-badge" alt="Live App">
+  </a>
+</p>
+
+This dashboard provides a unified view of engineering productivity across repositories, reviewers, and teams — including **Repo Velocity**, **Reviewer Load**, **PR Review Summary**, and **DORA Metrics**.
+
+Built with a **modern analytics stack**:
+**dbt → Snowflake → Streamlit → Plotly**
 
 ---
 
 ## 🔥 Features
 
 ### 📦 **1. Repo Velocity**
-- PRs opened & merged per week  
-- Cycle time trends  
-- Weekly engineering throughput  
+
+* PRs opened & merged per week
+* Cycle time trends
+* Engineering throughput over time
 
 ### 👥 **2. Reviewer Load**
-- Workload balancing across reviewers  
-- Avg review time per engineer  
-- Reviewer-specific trends  
+
+* Reviewer workload balancing
+* Avg review time per engineer
+* Reviewer-specific weekly trends
 
 ### 🔍 **3. PR Review Summary**
-- Reviewer efficiency metrics  
-- Review counts & time analysis  
-- Full reviewer benchmarking table  
+
+* Reviewer efficiency metrics
+* Review counts & PR interaction stats
+* Full benchmarking table for all reviewers
 
 ### 📊 **4. DORA Metrics**
-- Deployment frequency  
-- Lead time for changes  
-- Change failure rate  
-- MTTR (mean time to restore)  
+
+* Deployment frequency
+* Lead time for changes
+* Change failure rate
+* MTTR (mean time to restore)
 
 ---
 
-## 🖼️ Screenshots (placeholders — add later)
+## 🖼️ Screenshots (placeholders — will add real ones later)
 
-> Replace these with real screenshots once the app loads consistently.
+> Replace the filenames with real screenshots when ready.
 
-![Dashboard Homepage](screenshots/homepage.png)  
-![Repo Velocity](screenshots/repo_velocity.png)  
-![Reviewer Load](screenshots/reviewer_load.png)  
+![Dashboard Homepage](screenshots/homepage.png)
+![Repo Velocity](screenshots/repo_velocity.png)
+![Reviewer Load](screenshots/reviewer_load.png)
 ![DORA Metrics](screenshots/dora_metrics.png)
 
 ---
@@ -48,8 +69,8 @@ Built with a **modern data stack**:
 
 ```text
             ┌──────────────────┐
-            │      dbt         │
-            │ (transformations)│
+            │        dbt        │
+            │ (transformations) │
             └────────┬─────────┘
                      │
                      ▼
@@ -57,7 +78,7 @@ Built with a **modern data stack**:
            │     Snowflake      │
            │  (metrics tables)  │
            └────────┬───────────┘
-                     │ SQL
+                     │  SQL
                      ▼
          ┌────────────────────────┐
          │   Python / Streamlit   │
@@ -66,6 +87,28 @@ Built with a **modern data stack**:
                   │ DataFrames
                   ▼
         ┌────────────────────────────┐
-        │ Engineering Dashboard UI   │
-        │ (Streamlit multipage app)  │
+        │  Engineering Dashboard UI   │
+        │  (Streamlit multipage app)  │
         └────────────────────────────┘
+```
+
+---
+
+## 🚀 Local Development
+
+```
+git clone https://github.com/wisegregor/engineering-analytics-dashboard.git
+cd engineering-analytics-dashboard
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Make sure to add your Snowflake credentials:
+
+```
+.streamlit/secrets.toml
+```
+
+---
