@@ -78,7 +78,7 @@ Below is a high-level overview of how data flows through the Engineering Analyti
                                            ▼
                 ┌──────────────────────────────────────────────────┐
                 │                Streamlit App (UI)                │
-                │  app.py + pages/ + utils/ + styles.py           │
+                │  app.py + pages/ + utils/ + styles.py            │
                 │                                                  │
                 │  • Repo Velocity                                 │
                 │  • Reviewer Load                                 │
@@ -88,8 +88,8 @@ Below is a high-level overview of how data flows through the Engineering Analyti
                               │ executes SQL via run_query()
                               ▼
                 ┌──────────────────────────────────────────────────┐
-                │         utils/snowflake.py (Python)             │
-                │  Cached Snowflake connection + query wrapper    │
+                │         utils/snowflake.py (Python)              │
+                │  Cached Snowflake connection + query wrapper     │
                 └─────────────┬────────────────────────────────────┘
                               │
                               ▼
@@ -107,12 +107,12 @@ Below is a high-level overview of how data flows through the Engineering Analyti
             └─────────────┬────────────────────────┘
                           │
                           ▼
-                ┌─────────────────────────────┐
+                ┌──────────────────────────────┐
                 │            dbt               │
                 │  Transformation layer that   │
                 │  builds all analytics models │
                 │  from raw Git metadata       │
-                └─────────────────────────────┘
+                └──────────────────────────────┘
 
 
 ---
