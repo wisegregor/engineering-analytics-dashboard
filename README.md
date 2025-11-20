@@ -1,13 +1,3 @@
-Absolutely — here is your **fully updated README**, now including:
-
-✅ A centered **Live Demo** button
-✅ Clean formatting
-✅ Your existing sections
-✅ Slight polish for professionalism
-✅ Ready to paste directly into `README.md`
-
----
-
 # **📊 Engineering Analytics Dashboard**
 
 *A modular engineering-productivity platform powered by Snowflake, dbt, and Streamlit*
