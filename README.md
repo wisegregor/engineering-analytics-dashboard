@@ -2,11 +2,11 @@
 
 *A modular engineering-productivity platform powered by Snowflake, dbt, and Streamlit*
 
-<p align="center">
-  <a href="https://engineering-analytics-dashboard-sxhkwqvff8fsndqmnpkns5.streamlit.app/" target="_blank">
+<div align="center">
+  <a href="https://engineering-analytics-dashboard-sxhkwqvff8fsndqmnpkns5.streamlit.app/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/🔴 Live_Dashboard-Open_App-F54242?style=for-the-badge" alt="Live App">
   </a>
-</p>
+</div>
 
 This dashboard provides a unified view of engineering productivity across repositories, reviewers, and teams — including **Repo Velocity**, **Reviewer Load**, **PR Review Summary**, and **DORA Metrics**.
 
