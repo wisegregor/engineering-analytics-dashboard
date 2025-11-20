@@ -18,37 +18,27 @@ st.set_page_config(
 # Minimal Apple-ish styling
 CUSTOM_CSS = """
 <style>
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
     .metric-card {
         padding: 1rem 1.25rem;
         border-radius: 0.9rem;
-        background: rgba(30, 30, 30, 0.03);
-        border: 1px solid rgba(200, 200, 200, 0.2);
-        box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+        background-color: var(--background-color);
+        border: 1px solid rgba(200, 200, 200, 0.15);
+        box-shadow: 0 0 12px rgba(0,0,0,0.04);
     }
     .metric-label {
         font-size: 0.75rem;
         text-transform: uppercase;
         letter-spacing: 0.06em;
-        color: #888;
-        margin-bottom: 0.25rem;
+        color: var(--secondary-text-color);
     }
     .metric-value {
         font-size: 1.4rem;
         font-weight: 600;
-        color: #111;
+        color: var(--text-color);
     }
     .metric-sub {
         font-size: 0.8rem;
-        color: #666;
-        margin-top: 0.25rem;
-    }
-    .section-title {
-        font-weight: 600;
-        margin-top: 0.5rem;
-        margin-bottom: 0.25rem;
+        color: var(--secondary-text-color);
     }
 </style>
 """
